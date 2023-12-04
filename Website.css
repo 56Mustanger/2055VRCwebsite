@@ -4052,6 +4052,11 @@ blockquote {
     font-size: 2.7em;
 }
 
+.library-signature {
+    font-size: 2.7em;
+    color: #f9deb6;
+}
+
 .forme-case-2 {
     display: -ms-grid;
     display: grid;

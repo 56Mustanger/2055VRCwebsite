@@ -1,8 +1,4 @@
-/* Generated on: Sat Feb 11 2023 12:23:37 GMT+0000 (Coordinated Universal Time) */
-/* ==========================================================================
-   normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
-   ========================================================================== */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -2976,6 +2972,9 @@ blockquote {
 .label.filled.Dpurples {
     background-color: #8f80d4;
 }
+.label.filled.Dgrey {
+    background-color: #c8c2e5;
+}
 
 .label.filled.round {
     position: relative;
@@ -4919,6 +4918,13 @@ blockquote {
         padding-right: 6em;
         padding-left: 6em;
         grid-column-gap: 40px;
+        -ms-grid-columns: 2fr 2fr;
+        grid-template-columns: 2fr 2fr;
+    }
+    .container.size {
+        padding-right: 6em;
+        padding-left: 6em;
+        grid-column-gap: 700px;
         -ms-grid-columns: 2fr 2fr;
         grid-template-columns: 2fr 2fr;
     }
